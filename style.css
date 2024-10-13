@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
+}
+
+@media screen and (min-width:769px) {
+    .container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-first-half {
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        width: 95%;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .left-blank {
+        width: 2.5rem;
+        height: 100%;
+    }
+
+    .logo {
+        flex-grow: 1;
+        align-self: center;
+        text-align: center;
+    }
+
+    .logo a {
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        color: #202020;
+    }
+
+    .icon {
+        width: 2.5rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-second-half {
+        height: 4.125rem;
+        width: 100%;
+    }
+
+    .nav-second-half ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        column-gap: 1.25rem;
+    }
+
+    .nav-second-half ul li {
+        list-style: none;
+
+    }
+
+    .nav-second-half ul li a {
+        padding: 0.5625rem 0.3125px;
+        font-size: 0.8125rem;
+        color: #202020;
+        text-decoration: none;
+    }
+
+    .body-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .body-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .mens-outer-image {
+        /* max-width: 100%; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mens-outer-image a img {
+        object-fit: cover;
+        width: 100%;
+        height: 370px;
+    }
+
+    .mens-outer-image1 {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mens-outer-image1 a img {
+        object-fit: cover;
+        width: 100%;
+        height: 370px;
+    }
+
+    .mens-outer-name {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mens-outer-name h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .mens-outer-shop {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+
+    }
+
+    .mens-outer-shop button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+    }
+
+    .ladies-outer-image {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .ladies-outer-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 370px;
+        margin-top: 30px;
+    }
+
+    .ladies-outer-name {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .ladies-outer-name h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .ladies-outer-shop {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+
+    }
+
+    .ladies-outer-shop button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+    }
+
+    .tshirts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .tshirts .men-shirt {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tshirts .men-shirt img {
+        width: 100%;
+        height: 370px;
+    }
+
+    .tshirts .ladies-shirt img {
+        max-width: 100%;
+        height: 370px;
+        width: 100%;
+    }
+
+    .tshirts .ladies-shirt {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .tshirts .ladies-shirt h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .tshirts .men-shirt h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .tshirts .men-shirt button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+        margin-bottom: 25px;
+    }
+
+    .tshirts .ladies-shirt button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+        margin-bottom: 25px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    footer .link{
+        text-decoration: none;
+        color: gray;
+    }
+
+    .demo {
+        box-sizing: border-box;
+        width: 120px;
+        padding: 6px;
+        margin: 8px auto;
+        background-color: #202020;
+        color: white;
+    }
+
+    .demo1 {
+        box-sizing: border-box;
+        width: 120px;
+        padding: 6px;
+        margin: 8px auto;
+        background-color: #202020;
+        color: white;
+    }
+
+    .title {
+        font-size: 12px;
+        color: #757575;
+        margin-top: -20px;
+    }
+
+    .item-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-container .items {
+        margin-top: 30px;
+        width: 33%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .item-container .items .image {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .image img {
+        width: 80%;
+        text-align: center;
+    }
+
+    .item-container .items .title1 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .title1 a {
+        font-size: 13px;
+        color: #202020;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .item-container .items .dollar {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .dollar a {
+        font-size: 13px;
+        color: #757575;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .body-container1 .single-item-container {
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        
+    }
+
+    .body-container1 .single-item-container .single-image {
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .body-container1 .single-item-container .single-image img{
+        width: 90%;
+        height: auto;
+    }
+    .body-container1 .single-item-container .single-item-details {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-container1 .single-item-container .single-item-details h1{
+        font-size: 24px;
+        color:#202020;
+        font-weight: 500;
+    }
+
+    .body-container1 .single-item-container .single-item-details .single-item-price{
+        font-size: 16px;
+        color: #757575;
+        height: 24px;
+        margin: 16px 0px 40px;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-1{
+        border-top:0.5px solid lightgrey;
+        border-bottom: 0.5px solid lightgray;
+        padding:10px 0;
+        display: flex;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-1 label{
+        padding-right: 46px;
+        color: #757575;
+    }
+
+
+
+    .body-container1 .single-item-container .single-item-details .select-container-1 .option-list{
+        font-size: 16px;
+        padding:12px auto 12px 0px;
+        border: none;
+        background-color: white;
+        flex-grow: 1;
+    }
+   
+    .body-container1 .single-item-container .single-item-details .select-container-2{
+        border-bottom: 0.5px solid lightgray;
+        padding:10px 0;
+        display: flex;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-2 label{
+        padding-right: 20px;
+        color: #757575;
+    }
+
+
+
+    .body-container1 .single-item-container .single-item-details .select-container-2 .option-list{
+        font-size: 16px;
+        padding:12px auto 12px 0px;
+        border: none;
+        background-color: white;
+        flex-grow: 1;
+    
+    }
+    
+    .body-container1 .single-item-container .single-item-details h2{
+        font-size: 13px;
+        margin: 16px 0;
+    }
+    .body-container1 .single-item-container .single-item-details .para{
+        font-size: 13px;
+        color:#757575;
+    }
+    .body-container1 .single-item-container .single-item-details .features{
+        font-size: 13px;
+        color:#757575;
+    }
+
+    .body-container1 .single-item-container .single-item-details .feature-list{
+        width: 90%;
+        font-size: 13px;
+        color:#757575;
+        margin-top: 10px;
+        margin-left: 25px;
+        float: left;
+
+
+    }
+
+    .body-container1 .single-item-container .single-item-details .add-to-cart{
+        font-size: 13px;
+        color:#202020;
+        padding: 8px 44px;
+        background-color: #ffffff;
+        font: 14px Arial;
+        width: 12rem;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .body-container1 .single-item-container .single-item-details .add-to-cart a{
+        text-decoration: none;
+        color:#202020;
+    }
+    .extra-space{
+        width: 100%;
+        height: 300px;
+        background-color: white;
+    }
+
+
+    .add-to-cart1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-first-half {
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        width: 95%;
+    }
+
+    .left-blank {
+        width: 2.5rem;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        row-gap: 2px;
+        margin-top: 18px;
+    }
+
+    .left-blank span {
+        height: 2px;
+        width: 60%;
+        background-color: black;
+        border-radius: 25px;
+
+
+
+
+    }
+
+    .logo {
+        flex-grow: 1;
+        align-self: center;
+        text-align: center;
+    }
+
+    .logo a {
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        color: #202020;
+    }
+
+    .icon {
+        width: 2.5rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-menu {
+        padding-top: 20px;
+        position: absolute;
+        top: 0;
+        left: -400px;
+        bottom: 0;
+        width: 256px;
+        background-color: white;
+        height: 100%;
+    }
+
+    .mobile-menu div {
+        display: block;
+        padding: 0 16px;
+        line-height: 40px;
+    }
+
+    .mobile-menu div a {
+        text-decoration: none;
+        color: gray;
+        cursor: pointer;
+    }
+
+    .nav-second-half {
+        display: none;
+    }
+
+
+
+    .body-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .body-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: -40px;
+    }
+
+
+    .mens-outer-image {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mens-outer-image a img {
+        object-fit: cover;
+        width: 100%;
+        height: 370px;
+    }
+
+    .mens-outer-name {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mens-outer-name h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .mens-outer-shop {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+
+    }
+
+    .mens-outer-shop a button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+    }
+
+    .ladies-outer-image {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .ladies-outer-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 370px;
+        margin-top: 30px;
+    }
+
+    .ladies-outer-name {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .ladies-outer-name h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .ladies-outer-shop {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+
+    }
+
+    .ladies-outer-shop button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 50px;
+        font-size: 14px;
+        border: 2px solid #202020;
+    }
+
+    .tshirts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .tshirts .men-shirt {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tshirts .men-shirt img {
+        width: 100%;
+        height: 370px;
+    }
+
+    .tshirts .ladies-shirt img {
+        max-width: 100%;
+        height: 370px;
+        width: 100%;
+    }
+
+    .tshirts .ladies-shirt {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .tshirts .ladies-shirt h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .tshirts .men-shirt h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 32px 0;
+    }
+
+    .tshirts .men-shirt button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 25px;
+        font-size: 14px;
+        border: 2px solid #202020;
+        margin-bottom: 25px;
+    }
+
+    .tshirts .ladies-shirt button {
+        display: inline-block;
+        text-align: center;
+        padding: 8px 25px;
+        font-size: 14px;
+        border: 2px solid #202020;
+        margin-bottom: 25px;
+    }
+
+    footer {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .demo {
+        box-sizing: border-box;
+        width: 120px;
+        padding: 6px;
+        margin: 8px auto;
+        background-color: #202020;
+        color: white;
+    }
+
+    .title {
+        font-size: 12px;
+        color: #757575;
+        margin-top: -20px;
+    }
+
+    .item-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-container .items {
+        margin-top: 30px;
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .item-container .items .image {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .image img {
+        width: 80%;
+        text-align: center;
+    }
+
+    .item-container .items .title1 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .title1 a {
+        font-size: 10px;
+        color: #202020;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .item-container .items .dollar {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container .items .dollar a {
+        font-size: 10px;
+        color: #757575;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .mens-outer-image1 {
+        display: none;
+    }
+
+    .body-container1 .single-item-container {
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .body-container1 .single-item-container .single-image {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .body-container1 .single-item-container .single-image img{
+        width: 100%;
+        height: auto;
+    }
+    .body-container1 .single-item-container .single-item-details {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-container1 .single-item-container .single-item-details h1{
+        font-size: 24px;
+        color:#202020;
+        font-weight: 500;
+    }
+
+    .body-container1 .single-item-container .single-item-details .single-item-price{
+        font-size: 16px;
+        color: #757575;
+        height: 24px;
+        margin: 16px 0px 40px;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-1{
+        border-top:0.5px solid lightgrey;
+        border-bottom: 0.5px solid lightgray;
+        padding:10px 0;
+        display: flex;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-1 label{
+        padding-right: 46px;
+        color: #757575;
+    }
+
+
+
+    .body-container1 .single-item-container .single-item-details .select-container-1 .option-list{
+        font-size: 16px;
+        padding:12px auto 12px 0px;
+        border: none;
+        background-color: white;
+        flex-grow: 1;
+    }
+   
+    .body-container1 .single-item-container .single-item-details .select-container-2{
+        border-bottom: 0.5px solid lightgray;
+        padding:10px 0;
+        display: flex;
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-2 label{
+        padding-right: 20px;
+        color: #757575;
+    }
+
+
+
+    .body-container1 .single-item-container .single-item-details .select-container-2 .option-list{
+        font-size: 16px;
+        padding:12px auto 12px 0px;
+        border: none;
+        background-color: white;
+        flex-grow: 1;
+    
+    }
+    .body-container1 .single-item-container .single-item-details .select-container-2 .option-list option{
+        padding: 10px;
+    }
+    /* 2 */
+    .body-container1 .single-item-container .single-item-details h2{
+        font-size: 13px;
+        margin: 16px 0;
+    }
+    .body-container1 .single-item-container .single-item-details .para{
+        font-size: 13px;
+        color:#757575;
+    }
+    .body-container1 .single-item-container .single-item-details .features{
+        font-size: 13px;
+        color:#757575;
+    }
+
+    .body-container1 .single-item-container .single-item-details .feature-list{
+        width: 90%;
+        font-size: 13px;
+        color:#757575;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 50px;
+
+
+    }
+
+
+    .extra-space{
+        display: none;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .demo1{
+        display: none;
+    }
+    .add-to-cart{
+        display: none;
+    }
+    .add-to-cart1{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .add-to-cart1 button{
+        font-size: 13px;
+        color: white;
+        padding: 8px 44px;
+        background-color: #172c50;
+        font: 14px Arial;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .add-to-cart1 button a{
+        text-decoration: none;
+        color: white;
+    }
+
+    
+}
