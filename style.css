@@ -632,19 +632,21 @@ body {
         height: 370px;
     }
 
-    .mens-outer-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
+    .mens-outer-name a{
+        text-decoration: none;
     }
 
-    .mens-outer-name h2 {
+    .mens-outer-name1 h2{
         font-size: 1.3rem;
         font-weight: 500;
         margin: 32px 0;
     }
-
+    .mens-outer-name a  h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+        color: #202020;
+    }
     .mens-outer-shop {
         max-width: 100%;
         display: flex;
@@ -683,11 +685,16 @@ body {
 
     }
 
-    .ladies-outer-name h2 {
+    .ladies-outer-name a{
+        text-decoration: none;
+    }
+    .ladies-outer-name a h2 {
         font-size: 1.3rem;
         font-weight: 500;
         margin: 32px 0;
+        color: #202020;
     }
+
 
     .ladies-outer-shop {
         max-width: 100%;
@@ -740,16 +747,23 @@ body {
         position: relative;
     }
 
-    .tshirts .ladies-shirt h2 {
-        font-size: 1.2rem;
-        font-weight: 500;
-        margin: 32px 0;
+    .tshirts .ladies-shirt a{
+        text-decoration: none;
     }
-
-    .tshirts .men-shirt h2 {
-        font-size: 1.2rem;
+    .tshirts .ladies-shirt a h2 {
+        font-size: 1.3rem;
         font-weight: 500;
         margin: 32px 0;
+        color:#202020;
+    }
+    .tshirts .men-shirt a{
+        text-decoration: none;
+    }
+    .tshirts .men-shirt a h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 32px 0;
+        color: #202020;
     }
 
     .tshirts .men-shirt button {
