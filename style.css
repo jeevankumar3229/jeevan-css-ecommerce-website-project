@@ -48,6 +48,13 @@ body {
         color: #202020;
     }
 
+    .left-blank1{
+        width: 2.5rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .icon {
         width: 2.5rem;
         height: 100%;
@@ -513,6 +520,13 @@ body {
 
 @media screen and (max-width:768px) {
 
+    .left-blank1{
+        width: 2.5rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .container {
         width: 100vw;
         height: auto;
