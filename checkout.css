@@ -613,6 +613,10 @@ body {
         text-decoration: none;
         font-size: 14px;
     }
+
+    .ham{
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -641,7 +645,7 @@ body {
         justify-content: flex-start;
         align-items: center;
         row-gap: 2px;
-        margin-top: 18px;
+        margin-top: 22px;
     }
 
     .left-blank span {
@@ -653,6 +657,11 @@ body {
 
 
 
+    }
+
+    .ham{
+        width: 2.5rem;
+        height: 100%;
     }
 
     .logo {

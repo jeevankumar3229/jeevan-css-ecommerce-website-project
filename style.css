@@ -29,11 +29,13 @@ body {
         display: none;
     }
 
-    .left-blank {
+    .left-blank2 {
         width: 2.5rem;
         height: 100%;
     }
-
+    .ham{
+        display: none;
+    }
     .logo {
         flex-grow: 1;
         align-self: center;
@@ -515,6 +517,9 @@ body {
     .add-to-cart1{
         display: none;
     }
+    .left-blank1{
+        visibility: none;
+    }
 }
 
 
@@ -551,9 +556,14 @@ body {
         justify-content: flex-start;
         align-items: center;
         row-gap: 2px;
-        margin-top: 18px;
+        margin-top: 22px;
     }
 
+    .ham{
+        width: 2.5rem;
+        height: 100%;
+    }
+    /*
     .left-blank span {
         height: 2px;
         width: 60%;
@@ -563,7 +573,7 @@ body {
 
 
 
-    }
+    } */
 
     .logo {
         flex-grow: 1;

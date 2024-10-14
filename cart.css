@@ -249,6 +249,10 @@ body {
         height: 80vh;
         background-color: white;
     }
+
+    .ham{
+        display: none;
+    }
 }
 
 
@@ -278,7 +282,12 @@ body {
         justify-content: flex-start;
         align-items: center;
         row-gap: 2px;
-        margin-top: 18px;
+        margin-top: 22px;
+    }
+
+    .ham{
+        width: 2.5rem;
+        height: 100%;
     }
 
     .left-blank span {
