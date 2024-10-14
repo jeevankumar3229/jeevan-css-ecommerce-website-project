@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', 'Noto', sans-serif;
     line-height: 1.5;
+    height: 100vh;
 }
 
 @media screen and (min-width:769px) {
@@ -87,7 +88,7 @@ body {
         box-sizing: border-box;
         width: 120px;
         padding: 6px;
-        margin: 8px auto;
+        /* margin: 8px auto; */
         background-color: #202020;
         color: white;
     }
@@ -251,6 +252,10 @@ body {
     }
 
     .ham{
+        display: none;
+    }
+
+    .body-container3{
         display: none;
     }
 }
