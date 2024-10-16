@@ -535,10 +535,10 @@ form .section2 .total-summary .name {
     }
 
     .mobile-menu {
+        display: none;
         padding-top: 20px;
         position: absolute;
         top: 0;
-        left: -400px;
         bottom: 0;
         width: 256px;
         background-color: white;
@@ -555,6 +555,7 @@ form .section2 .total-summary .name {
         text-decoration: none;
         color: gray;
         cursor: pointer;
+        font-size: 13px;
     }
 
     .nav-second-half {
