@@ -10,25 +10,108 @@ body {
     height: 100vh;
 }
 
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-first-half {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: 95%;
+}
+
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-first-half {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: 95%;
+}
+
+
+ .logo {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+ .logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    color: #202020;
+}
+
+ .icon {
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-name {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cart-name h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #202020;
+}
+
+.title2{
+    font-size: 12px;
+    color: #757575;
+}
+
+
+ .total div .total-label{
+    font-size: 13px;
+    color: #202020;
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+ .demo {
+    box-sizing: border-box;
+    width: 120px;
+    padding: 6px;
+    background-color: #202020;
+    color: white;
+} 
+
 @media screen and (min-width:769px) {
     #cart-container{
         max-width: 1024px;
 
-    }
-
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
     }
 
     .mobile-menu {
@@ -40,28 +123,6 @@ body {
         height: 100%;
     }
 
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .body-container2 {
         display: flex;
         flex-direction: column;
@@ -69,28 +130,9 @@ body {
         width: 70%;
     }
 
-    footer {
-        text-align: center;
-        max-width: 1400px;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
     footer .link{
         text-decoration: none;
         color: gray;
-    }
-
-    .demo {
-        box-sizing: border-box;
-        width: 120px;
-        padding: 6px;
-        /* margin: 8px auto; */
-        background-color: #202020;
-        color: white;
     }
 
     .demo1 {
@@ -111,24 +153,6 @@ body {
         width: 100%;
         height: 50px;
         background-color: white;
-    }
-
-    .cart-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .cart-name h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        color: #202020;
-    }
-
-    .title2{
-        font-size: 12px;
-        color: #757575;
     }
 
     .item-list-in-cart{
@@ -223,12 +247,6 @@ body {
         margin-bottom: 20px;
     }
 
-    .total div .total-label{
-        font-size: 13px;
-        color: #202020;
-        margin: 0px 10px 0px 10px;
-        font-weight: bold;
-    }
     .total div .sub-total{
         font-size: 13px;
         color: #202020;
@@ -263,21 +281,6 @@ body {
 
 @media screen and (max-width:768px) {
 
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
-    }
-
     .left-blank {
         width: 2.5rem;
         height: 100%;
@@ -301,31 +304,6 @@ body {
         background-color: black;
         border-radius: 25px;
 
-
-
-
-    }
-
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .mobile-menu {
@@ -355,25 +333,6 @@ body {
         display: none;
     }
 
-    footer {
-        text-align: center;
-        position: relative;
-        bottom: 0;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .demo {
-        box-sizing: border-box;
-        width: 120px;
-        padding: 6px;
-        margin: 8px auto;
-        background-color: #202020;
-        color: white;
-    }
 
     .title {
         font-size: 12px;
@@ -522,24 +481,6 @@ body {
         background-color:white;
     }
 
-   .body-container3 .cart-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .body-container3 .cart-name h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        color: #202020;
-    }
-
-    .body-container3 .title2{
-        font-size: 12px;
-        color: #757575;
-    }
-
     .body-container3 .item-list-in-cart{
         display:flex;
         justify-content: center;
@@ -653,12 +594,6 @@ body {
         margin-bottom: 20px;
     }
 
-    .body-container3 .total div .total-label{
-        font-size: 13px;
-        color: #202020;
-        margin: 0px 10px 0px 10px;
-        font-weight: bold;
-    }
     .body-container3  .total div .sub-total{
         font-size: 13px;
         color: #202020;

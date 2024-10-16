@@ -9,22 +9,345 @@ body {
     line-height: 1.5;
     height: 100vh;
 }
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-first-half {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: 95%;
+}
+
+.logo {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    color: #202020;
+}
+
+.left-blank1 {
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mens-outer-image a img {
+    object-fit: cover;
+    width: 100%;
+    height: 370px;
+}
+
+
+.mens-outer-name a {
+    text-decoration: none;
+}
+
+.mens-outer-name a h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 32px 0;
+    color: #202020;
+}
+
+.mens-outer-shop {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+
+}
+
+  .ladies-outer-image {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ladies-outer-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 370px;
+    margin-top: 30px;
+}
+
+.ladies-outer-name {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+ .ladies-outer-name a {
+    text-decoration: none;
+}
+
+.ladies-outer-name a h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 32px 0;
+    color: #202020;
+}
+
+.ladies-outer-shop {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+
+}
+ .ladies-outer-shop button {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 50px;
+    font-size: 14px;
+    border: 2px solid #202020;
+}
+
+
+
+ .tshirts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.tshirts .men-shirt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tshirts .men-shirt img {
+    width: 100%;
+    height: 370px;
+}
+
+.tshirts .ladies-shirt img {
+    max-width: 100%;
+    height: 370px;
+    width: 100%;
+}
+
+
+.tshirts .ladies-shirt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tshirts .ladies-shirt a {
+    text-decoration: none;
+}
+
+ .tshirts .ladies-shirt a h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 32px 0;
+    color: #202020;
+}
+
+.tshirts .men-shirt a {
+    text-decoration: none;
+}
+
+
+ .tshirts .men-shirt a h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 32px 0;
+    color: #202020;
+}
+
+
+  footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+ .demo {
+    box-sizing: border-box;
+    width: 120px;
+    padding: 6px;
+    margin: 8px auto;
+    background-color: #202020;
+    color: white;
+}
+
+
+
+
+  .title {
+    font-size: 12px;
+    color: #757575;
+    margin-top: -20px;
+}
+
+.item-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .item-container .items .image {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+ .item-container .items .image img {
+    width: 80%;
+    text-align: center;
+}
+
+.item-container .items .title1 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+ .item-container .items .dollar {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+ .body-container1 .single-item-container .single-item-details .single-item-price {
+    font-size: 16px;
+    color: #757575;
+    height: 24px;
+    margin: 16px 0px 40px;
+}
+
+.body-container1 .single-item-container .single-item-details .select-container-1 {
+    border-top: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgray;
+    padding: 10px 0;
+    display: flex;
+}
+
+.body-container1 .single-item-container .single-item-details .select-container-1 label {
+    padding-right: 46px;
+    color: #757575;
+}
+
+
+  .body-container1 .single-item-container .single-item-details .select-container-1 .option-list {
+    font-size: 16px;
+    padding: 12px auto 12px 0px;
+    border: none;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.body-container1 .single-item-container .single-item-details .select-container-2 {
+    border-bottom: 0.5px solid lightgray;
+    padding: 10px 0;
+    display: flex;
+}
+
+  .body-container1 .single-item-container .single-item-details .select-container-2 label {
+    padding-right: 20px;
+    color: #757575;
+}
+
+
+
+.body-container1 .single-item-container .single-item-details .select-container-2 .option-list {
+    font-size: 16px;
+    padding: 12px auto 12px 0px;
+    border: none;
+    background-color: white;
+    flex-grow: 1;
+
+}
+
+ .body-container1 .single-item-container .single-item-details h2 {
+    font-size: 13px;
+    margin: 16px 0;
+}
+
+.body-container1 .single-item-container .single-item-details .para {
+    font-size: 13px;
+    color: #757575;
+}
+
+.body-container1 .single-item-container .single-item-details .features {
+    font-size: 13px;
+    color: #757575;
+}
+
+
+ .men {
+    width: 100%;
+}
+
+.men-tshirt-image {
+    height: 320px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(images/mens_tshirts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.women-tshirt-image {
+    height: 320px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(images/ladies_tshirts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    text-align: center;
+}
+
 
 @media screen and (min-width:769px) {
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
-    }
 
     .mobile-menu {
         display: none;
@@ -37,36 +360,6 @@ body {
 
     .ham {
         display: none;
-    }
-
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .left-blank1 {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .nav-second-half {
@@ -114,18 +407,12 @@ body {
     }
 
     .mens-outer-image {
-        /* max-width: 100%; */
         width: 100%;
         display: flex;
         justify-content: center;
 
     }
 
-    .mens-outer-image a img {
-        object-fit: cover;
-        width: 100%;
-        height: 370px;
-    }
 
     .mens-outer-image1 {
         max-width: 100%;
@@ -148,29 +435,10 @@ body {
 
     }
 
-    .mens-outer-name a {
-        text-decoration: none;
-    }
-
     .mens-outer-name1 h2 {
         font-size: 1.3rem;
         font-weight: 500;
         margin: 32px 0;
-    }
-
-    .mens-outer-name a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-    .mens-outer-shop {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: -5px;
-
     }
 
     .mens-outer-shop button {
@@ -181,114 +449,9 @@ body {
         border: 2px solid #202020;
     }
 
-    .ladies-outer-image {
-        max-width: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .ladies-outer-image img {
-        object-fit: cover;
-        width: 100%;
-        height: 370px;
-        margin-top: 30px;
-    }
-
-    .ladies-outer-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
 
     .ladies-outer-image {
         text-decoration: none;
-    }
-
-    .ladies-outer-name a {
-        text-decoration: none;
-    }
-
-    .ladies-outer-name a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-    .ladies-outer-shop {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: -5px;
-
-    }
-
-    .ladies-outer-shop button {
-        display: inline-block;
-        text-align: center;
-        padding: 8px 50px;
-        font-size: 14px;
-        border: 2px solid #202020;
-    }
-
-    .tshirts {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-
-    .tshirts .men-shirt {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .tshirts .men-shirt img {
-        width: 100%;
-        height: 370px;
-    }
-
-    .tshirts .ladies-shirt img {
-        max-width: 100%;
-        height: 370px;
-        width: 100%;
-    }
-
-    .tshirts .ladies-shirt {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    .tshirts .ladies-shirt a {
-        text-decoration: none;
-    }
-
-    .tshirts .ladies-shirt a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-    .tshirts .men-shirt a {
-        text-decoration: none;
-    }
-
-    .tshirts .men-shirt a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
     }
 
     .tshirts .men-shirt button {
@@ -309,28 +472,15 @@ body {
         margin-bottom: 25px;
     }
 
-    footer {
-        text-align: center;
-    }
 
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
+  
 
     footer .link {
         text-decoration: none;
         color: gray;
     }
 
-    .demo {
-        box-sizing: border-box;
-        width: 120px;
-        padding: 6px;
-        margin: 8px auto;
-        background-color: #202020;
-        color: white;
-    }
+
 
     .demo1 {
         box-sizing: border-box;
@@ -341,18 +491,6 @@ body {
         color: white;
     }
 
-    .title {
-        font-size: 12px;
-        color: #757575;
-        margin-top: -20px;
-    }
-
-    .item-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .item-container .items {
         margin-top: 30px;
@@ -364,23 +502,6 @@ body {
         margin-bottom: 30px;
     }
 
-    .item-container .items .image {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container .items .image img {
-        width: 80%;
-        text-align: center;
-    }
-
-    .item-container .items .title1 {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
     .item-container .items .title1 a {
         font-size: 13px;
         color: #202020;
@@ -388,12 +509,6 @@ body {
         margin-top: 10px;
         text-align: center;
         text-decoration: none;
-    }
-
-    .item-container .items .dollar {
-        text-align: center;
-        width: 100%;
-        height: auto;
     }
 
     .item-container .items .dollar a {
@@ -436,71 +551,6 @@ body {
         font-weight: 500;
     }
 
-    .body-container1 .single-item-container .single-item-details .single-item-price {
-        font-size: 16px;
-        color: #757575;
-        height: 24px;
-        margin: 16px 0px 40px;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 {
-        border-top: 0.5px solid lightgrey;
-        border-bottom: 0.5px solid lightgray;
-        padding: 10px 0;
-        display: flex;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 label {
-        padding-right: 46px;
-        color: #757575;
-    }
-
-
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 .option-list {
-        font-size: 16px;
-        padding: 12px auto 12px 0px;
-        border: none;
-        background-color: white;
-        flex-grow: 1;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 {
-        border-bottom: 0.5px solid lightgray;
-        padding: 10px 0;
-        display: flex;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 label {
-        padding-right: 20px;
-        color: #757575;
-    }
-
-
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 .option-list {
-        font-size: 16px;
-        padding: 12px auto 12px 0px;
-        border: none;
-        background-color: white;
-        flex-grow: 1;
-
-    }
-
-    .body-container1 .single-item-container .single-item-details h2 {
-        font-size: 13px;
-        margin: 16px 0;
-    }
-
-    .body-container1 .single-item-container .single-item-details .para {
-        font-size: 13px;
-        color: #757575;
-    }
-
-    .body-container1 .single-item-container .single-item-details .features {
-        font-size: 13px;
-        color: #757575;
-    }
 
     .body-container1 .single-item-container .single-item-details .feature-list {
         width: 90%;
@@ -545,58 +595,9 @@ body {
     .left-blank1 {
         visibility: none;
     }
-
-    .men {
-        width: 100%;
-    }
-
-    .men-tshirt-image {
-        height: 320px;
-        width: 100%;
-        margin: 0 auto;
-        background: url(images/mens_tshirts.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-    }
-
-    .women-tshirt-image {
-        height: 320px;
-        width: 100%;
-        margin: 0 auto;
-        background: url(images/ladies_tshirts.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
 }
 
 @media screen and (max-width:768px) {
-
-    .left-blank1 {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
-    }
-
     .left-blank {
         width: 2.5rem;
         height: 100%;
@@ -625,28 +626,6 @@ body {
 
 
     } */
-
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .mobile-menu {
         padding-top: 20px;
@@ -702,35 +681,13 @@ body {
 
     }
 
-    .mens-outer-image a img {
-        object-fit: cover;
-        width: 100%;
-        height: 370px;
-    }
 
-    .mens-outer-name a {
-        text-decoration: none;
-    }
+   
 
     .mens-outer-name1 h2 {
         font-size: 1.3rem;
         font-weight: 500;
         margin: 32px 0;
-    }
-
-    .mens-outer-name a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-    .mens-outer-shop {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: -5px;
-
     }
 
     .mens-outer-shop a button {
@@ -741,112 +698,7 @@ body {
         border: 2px solid #202020;
     }
 
-    .ladies-outer-image {
-        max-width: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
 
-    }
-
-    .ladies-outer-image img {
-        object-fit: cover;
-        width: 100%;
-        height: 370px;
-        margin-top: 30px;
-    }
-
-    .ladies-outer-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .ladies-outer-name a {
-        text-decoration: none;
-    }
-
-    .ladies-outer-name a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-
-    .ladies-outer-shop {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: -5px;
-
-    }
-
-    .ladies-outer-shop button {
-        display: inline-block;
-        text-align: center;
-        padding: 8px 50px;
-        font-size: 14px;
-        border: 2px solid #202020;
-    }
-
-    .tshirts {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-
-    .tshirts .men-shirt {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .tshirts .men-shirt img {
-        width: 100%;
-        height: 370px;
-    }
-
-    .tshirts .ladies-shirt img {
-        max-width: 100%;
-        height: 370px;
-        width: 100%;
-    }
-
-    .tshirts .ladies-shirt {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    .tshirts .ladies-shirt a {
-        text-decoration: none;
-    }
-
-    .tshirts .ladies-shirt a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
-
-    .tshirts .men-shirt a {
-        text-decoration: none;
-    }
-
-    .tshirts .men-shirt a h2 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        margin: 32px 0;
-        color: #202020;
-    }
 
     .tshirts .men-shirt button {
         display: inline-block;
@@ -866,39 +718,6 @@ body {
         margin-bottom: 25px;
     }
 
-    footer {
-        text-align: center;
-        position: relative;
-        bottom: 0;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .demo {
-        box-sizing: border-box;
-        width: 120px;
-        padding: 6px;
-        margin: 8px auto;
-        background-color: #202020;
-        color: white;
-    }
-
-    .title {
-        font-size: 12px;
-        color: #757575;
-        margin-top: -20px;
-    }
-
-    .item-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .item-container .items {
         margin-top: 30px;
         width: 50%;
@@ -909,23 +728,6 @@ body {
         margin-bottom: 30px;
     }
 
-    .item-container .items .image {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container .items .image img {
-        width: 80%;
-        text-align: center;
-    }
-
-    .item-container .items .title1 {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
     .item-container .items .title1 a {
         font-size: 10px;
         color: #202020;
@@ -933,12 +735,6 @@ body {
         margin-top: 10px;
         text-align: center;
         text-decoration: none;
-    }
-
-    .item-container .items .dollar {
-        text-align: center;
-        width: 100%;
-        height: auto;
     }
 
     .item-container .items .dollar a {
@@ -986,75 +782,9 @@ body {
         font-weight: 500;
     }
 
-    .body-container1 .single-item-container .single-item-details .single-item-price {
-        font-size: 16px;
-        color: #757575;
-        height: 24px;
-        margin: 16px 0px 40px;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 {
-        border-top: 0.5px solid lightgrey;
-        border-bottom: 0.5px solid lightgray;
-        padding: 10px 0;
-        display: flex;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 label {
-        padding-right: 46px;
-        color: #757575;
-    }
-
-
-
-    .body-container1 .single-item-container .single-item-details .select-container-1 .option-list {
-        font-size: 16px;
-        padding: 12px auto 12px 0px;
-        border: none;
-        background-color: white;
-        flex-grow: 1;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 {
-        border-bottom: 0.5px solid lightgray;
-        padding: 10px 0;
-        display: flex;
-    }
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 label {
-        padding-right: 20px;
-        color: #757575;
-    }
-
-
-
-    .body-container1 .single-item-container .single-item-details .select-container-2 .option-list {
-        font-size: 16px;
-        padding: 12px auto 12px 0px;
-        border: none;
-        background-color: white;
-        flex-grow: 1;
-
-    }
 
     .body-container1 .single-item-container .single-item-details .select-container-2 .option-list option {
         padding: 10px;
-    }
-
-    /* 2 */
-    .body-container1 .single-item-container .single-item-details h2 {
-        font-size: 13px;
-        margin: 16px 0;
-    }
-
-    .body-container1 .single-item-container .single-item-details .para {
-        font-size: 13px;
-        color: #757575;
-    }
-
-    .body-container1 .single-item-container .single-item-details .features {
-        font-size: 13px;
-        color: #757575;
     }
 
     .body-container1 .single-item-container .single-item-details .feature-list {
@@ -1106,35 +836,6 @@ body {
     .add-to-cart1 button a {
         text-decoration: none;
         color: white;
-    }
-
-    .men {
-        width: 100%;
-    }
-
-    .men-tshirt-image {
-        height: 320px;
-        width: 100%;
-        margin: 0 auto;
-        max-height: 320px;
-        max-width: 1400px;
-        background: url(images/mens_tshirts.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-    }
-
-    .women-tshirt-image {
-        height: 320px;
-        width: 100%;
-        margin: 0 auto;
-        max-height: 320px;
-        max-width: 1400px;
-        background: url(images/ladies_tshirts.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
 

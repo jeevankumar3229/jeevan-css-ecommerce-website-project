@@ -10,21 +10,417 @@ body {
     height: 100vh;
 }
 
-@media screen and (min-width:769px) {
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
-    }
+ .nav-first-half {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    width: 95%;
+}
+
+ .logo {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    color: #202020;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-name {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cart-name p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #202020;
+    margin: 0px 0px 4px;
+}
+
+.title2 {
+    font-size: 12px;
+    color: #757575;
+    margin-top: 5px;
+}
+
+ form .section1 .account-info {
+    font-size: 13px;
+    color: #202020;
+    margin: 10.79px 0px;
+}
+
+form .section1 .email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.placeholder {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    transition: 0.3s;
+    color: #757575;
+    font-size: 14px;
+}
+
+
+  input:focus+.placeholder {
+    top: -10px;
+}
+
+form .section1 .email .email-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section1 .phone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form .section1 .phone .phone-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+ form .section1 .shipping-info {
+    font-size: 13px;
+    color: #202020;
+    margin: 20px 0px;
+
+}
+
+form .section1 .address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form .section1 .address .address-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section1 .city {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+ form .section1 .city .city-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section1 .state-zip {
+    display: flex;
+    column-gap: 15px;
+}
+
+form .section1 .state-zip .state {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 50%;
+}
+
+form .section1 .state-zip .state .st {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+
+}
+
+  form .section1 .state-zip .zip {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 50%;
+}
+
+form .section1 .state-zip .zip .zp {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+
+}
+
+form .section2 .payment-method {
+    font-size: 13px;
+    color: #202020;
+    margin: 10.79px 0px;
+}
+
+form .section2 .cardholder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form .section2 .cardholder .cardholder-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+
+  form .section2 .cardno {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form .section2 .cardno .cardno-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section1 .country {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+form .section1 .country .option-list {
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+ .placeholder1 {
+    position: absolute;
+    top: -18px;
+    left: 2px;
+    transition: 0.3s;
+    color: #757575;
+    font-size: 14px;
+}
+
+form .section1 .billing-info {
+    font-size: 13px;
+    color: #202020;
+    margin: 20px 0px;
+
+}
+
+
+ form .section1 .checkbox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+form .section1 .checkbox .billing-address-checkbox-label {
+    font-size: 13px;
+    color: #202020;
+    padding-left: 10px;
+
+}
+
+form .section2 .expiry {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    column-gap: 5px;
+}
+
+form .section2 .expiry .option-list2 {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    width: 33%;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section2 .expiry .option-list3 {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    width: 33%;
+    border-bottom: 1px solid lightgray;
+}
+
+form .section2 .cvv {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+form .section2 .cvv .cvv-info {
+    padding: 15px 0px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+
+.placeholder2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s;
+    color: #757575;
+    font-size: 14px;
+}
+
+input:focus+.placeholder2 {
+    top: -10px;
+}
+
+form .section2 .order-summary {
+    font-size: 13px;
+    color: #202020;
+    margin: 10.79px 0px;
+}
+
+
+form .section2 .order-history {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+form .section2 .order-history .order {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+form .section2 .order-history .order .name {
+    flex-grow: 1;
+    font-size: 13px;
+    color: #202020;
+}
+
+form .section2 .order-history .order .rate {
+    font-size: 13px;
+    color: #202020;
+}
+
+form .section2 .total-summary{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form .section2 .total-summary .name {
+    flex-grow: 1;
+    font-size: 13px;
+    color: #202020;
+}
+
+    form .section2 .total-summary .rate {
+    font-size: 13px;
+    color: #202020;
+}
+
+.checkout-button{
+    border: 2px solid #000;
+    background-color: #ffffff;
+    padding: 8px 44px;
+}
+.checkout-button a{
+    color: #202020;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+@media screen and (min-width:769px) {
+
 
     .mobile-menu {
         display: none;
@@ -33,28 +429,6 @@ body {
     .left-blank {
         width: 2.5rem;
         height: 100%;
-    }
-
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .body-container2 {
@@ -82,7 +456,6 @@ body {
         box-sizing: border-box;
         width: 120px;
         padding: 6px;
-        /* margin: 8px auto; */
         background-color: #202020;
         color: white;
     }
@@ -107,155 +480,6 @@ body {
         background-color: white;
     }
 
-    .cart-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .cart-name p {
-        font-size: 1rem;
-        font-weight: 300;
-        color: #202020;
-        margin: 0px 0px 4px;
-    }
-
-    .title2 {
-        font-size: 12px;
-        color: #757575;
-        margin-top: 5px;
-    }
-
-    .item-list-in-cart {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        margin-top: 20px;
-        margin-top: 20px;
-        width: 100%;
-
-    }
-
-    .item-list-in-cart div {
-        width: 10%;
-        padding-left: 30px;
-    }
-
-    .item-list-in-cart div a img {
-        width: 100%;
-        height: auto;
-    }
-
-    .item-list-in-cart .item-name {
-        width: 40%;
-        height: auto;
-        align-content: center;
-        font-size: 13px;
-        color: #202020;
-        padding-left: 20px;
-    }
-
-    .item-list-in-cart .quantity {
-        display: flex;
-        width: 10%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .item-list-in-cart .quantity label {
-        font-size: 13px;
-        color: #757575;
-    }
-
-    .item-list-in-cart .quantity select {
-        flex-grow: 1;
-        border: none;
-        color: #202020;
-        background-color: white;
-        padding: 8px 10px 8px 10px;
-
-    }
-
-    .item-list-in-cart .size {
-        width: 10%;
-        align-content: center;
-        padding-left: 20px;
-        font-size: 13px;
-        color: #757575;
-    }
-
-    .item-list-in-cart .price {
-        width: 10%;
-        align-content: center;
-        font-size: 13px;
-        color: #757575;
-    }
-
-    .item-list-in-cart .cross-button {
-        width: 5%;
-        border: none;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* align-items: center; */
-
-    }
-
-    .item-list-in-cart .cross-button i {
-        width: 10%;
-        font-size: 15px;
-        color: #757575;
-        align-self: flex-end;
-    }
-
-    .total-container {
-        display: flex;
-        width: 100%;
-    }
-
-    .total {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .total div .total-label {
-        font-size: 13px;
-        color: #202020;
-        margin: 0px 10px 0px 10px;
-        font-weight: bold;
-    }
-
-    .total div .sub-total {
-        font-size: 13px;
-        color: #202020;
-        margin: 0px 40px 0px 10px;
-        font-weight: bold;
-    }
-
-    .checkout-button {
-        border: 2px solid #000;
-        background-color: #ffffff;
-        padding: 8px 44px;
-    }
-
-    .checkout-button a {
-        color: #202020;
-        text-decoration: none;
-        font-size: 14px;
-    }
-
-    .extra-space3 {
-        width: 100%;
-        height: 80vh;
-        background-color: white;
-    }
-
     form {
         display: flex;
         width: 100%;
@@ -270,349 +494,9 @@ body {
 
     }
 
-    form .section1 .account-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-    form .section1 .email {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    .placeholder {
-        position: absolute;
-        top: 10px;
-        left: 0px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    input:focus+.placeholder {
-        top: -10px;
-    }
-
-    form .section1 .email .email-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .phone {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .phone .phone-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .shipping-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 20px 0px;
-
-    }
-
-    form .section1 .address {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .address .address-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .city {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .city .city-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .state-zip {
-        display: flex;
-        column-gap: 15px;
-    }
-
-    form .section1 .state-zip .state {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: relative;
-        width: 50%;
-    }
-
-    form .section1 .state-zip .state .st {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-
-    }
-
-    form .section1 .state-zip .zip {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: relative;
-        width: 50%;
-    }
-
-    form .section1 .state-zip .zip .zp {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-
-    }
-
     form .section2 {
         width: 50%;
         height: 800px;
-    }
-
-    form .section2 .payment-method {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-    form .section2 .cardholder {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section2 .cardholder .cardholder-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .cardno {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section2 .cardno .cardno-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .country {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    form .section1 .country .option-list {
-        font-size: 16px;
-        padding: 10px 0px 10px 0px;
-        border: none;
-        background-color: white;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
-    }
-
-
-    .placeholder1 {
-        position: absolute;
-        top: -18px;
-        left: 2px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    form .section1 .billing-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 20px 0px;
-
-    }
-
-
-    form .section1 .checkbox {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    form .section1 .checkbox .billing-address-checkbox-label {
-        font-size: 13px;
-        color: #202020;
-        padding-left: 10px;
-
-    }
-
-    form .section2 .expiry {
-        display: flex;
-        width: 100%;
-        position: relative;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        column-gap: 5px;
-    }
-
-    form .section2 .expiry .option-list2 {
-        font-size: 16px;
-        border: none;
-        background-color: white;
-        width: 33%;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .expiry .option-list3 {
-        font-size: 16px;
-        border: none;
-        background-color: white;
-        width: 33%;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .cvv {
-        margin-top: 30px;
-        margin-bottom: 0px;
-        position: relative;
-    }
-
-    form .section2 .cvv .cvv-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    .placeholder2 {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    input:focus+.placeholder2 {
-        top: -10px;
-    }
-
-    form .section2 .order-summary {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-
-    form .section2 .order-history {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    form .section2 .order-history .order {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-
-    form .section2 .order-history .order .name {
-        flex-grow: 1;
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .order-history .order .rate {
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .total-summary{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    form .section2 .total-summary .name {
-        flex-grow: 1;
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .total-summary .rate {
-        font-size: 13px;
-        color: #202020;
-    }
-
-    .checkout-button{
-        border: 2px solid #000;
-        background-color: #ffffff;
-        padding: 8px 44px;
-    }
-    .checkout-button a{
-        color: #202020;
-        text-decoration: none;
-        font-size: 14px;
     }
 
     .ham{
@@ -621,21 +505,6 @@ body {
 }
 
 @media screen and (max-width:768px) {
-
-    .container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-first-half {
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 95%;
-    }
 
     .left-blank {
         width: 2.5rem;
@@ -663,28 +532,6 @@ body {
     .ham{
         width: 2.5rem;
         height: 100%;
-    }
-
-    .logo {
-        flex-grow: 1;
-        align-self: center;
-        text-align: center;
-    }
-
-    .logo a {
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.3em;
-        color: #202020;
-    }
-
-    .icon {
-        width: 2.5rem;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .mobile-menu {
@@ -739,63 +586,6 @@ body {
         color: #757575;
         margin-top: -20px;
     }
-
-    .item-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .item-container .items {
-        margin-top: 30px;
-        width: 50%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-
-    .item-container .items .image {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container .items .image img {
-        width: 80%;
-        text-align: center;
-    }
-
-    .item-container .items .title1 {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container .items .title1 a {
-        font-size: 10px;
-        color: #202020;
-        font-weight: bold;
-        margin-top: 10px;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    .item-container .items .dollar {
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container .items .dollar a {
-        font-size: 10px;
-        color: #757575;
-        text-align: center;
-        text-decoration: none;
-    }
-
 
     .extra-space{
         display: none;
@@ -878,26 +668,6 @@ body {
         background-color:white;
     }
 
-    .cart-name {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .cart-name p {
-        font-size: 1rem;
-        font-weight: 300;
-        color: #202020;
-        margin: 0px 0px 4px;
-    }
-
-    .title2 {
-        font-size: 12px;
-        color: #757575;
-        margin-top: 5px;
-    }
-
     form {
         display: flex;
         width: 100%;
@@ -912,348 +682,8 @@ body {
 
     }
 
-    form .section1 .account-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-    form .section1 .email {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    .placeholder {
-        position: absolute;
-        top: 10px;
-        left: 0px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    input:focus+.placeholder {
-        top: -10px;
-    }
-
-    form .section1 .email .email-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .phone {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .phone .phone-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .shipping-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 20px 0px;
-
-    }
-
-    form .section1 .address {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .address .address-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .city {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section1 .city .city-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .state-zip {
-        display: flex;
-        column-gap: 15px;
-    }
-
-    form .section1 .state-zip .state {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: relative;
-        width: 50%;
-    }
-
-    form .section1 .state-zip .state .st {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-
-    }
-
-    form .section1 .state-zip .zip {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        position: relative;
-        width: 50%;
-    }
-
-    form .section1 .state-zip .zip .zp {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-
-    }
-
     form .section2 {
         width: 100%;
         height: 800px;
-    }
-
-    form .section2 .payment-method {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-    form .section2 .cardholder {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section2 .cardholder .cardholder-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .cardno {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    form .section2 .cardno .cardno-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section1 .country {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    form .section1 .country .option-list {
-        font-size: 16px;
-        padding: 10px 0px 10px 0px;
-        border: none;
-        background-color: white;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
-    }
-
-
-    .placeholder1 {
-        position: absolute;
-        top: -18px;
-        left: 2px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    form .section1 .billing-info {
-        font-size: 13px;
-        color: #202020;
-        margin: 20px 0px;
-
-    }
-
-
-    form .section1 .checkbox {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    form .section1 .checkbox .billing-address-checkbox-label {
-        font-size: 13px;
-        color: #202020;
-        padding-left: 10px;
-
-    }
-
-    form .section2 .expiry {
-        display: flex;
-        width: 100%;
-        position: relative;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        column-gap: 5px;
-    }
-
-    form .section2 .expiry .option-list2 {
-        font-size: 16px;
-        border: none;
-        background-color: white;
-        width: 33%;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .expiry .option-list3 {
-        font-size: 16px;
-        border: none;
-        background-color: white;
-        width: 33%;
-        border-bottom: 1px solid lightgray;
-    }
-
-    form .section2 .cvv {
-        margin-top: 30px;
-        margin-bottom: 0px;
-        position: relative;
-    }
-
-    form .section2 .cvv .cvv-info {
-        padding: 15px 0px;
-        background-color: #ffffff;
-        border: none;
-        width: 100%;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        border-bottom: 1px solid lightgray;
-    }
-
-    .placeholder2 {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        transition: 0.3s;
-        color: #757575;
-        font-size: 14px;
-    }
-
-    input:focus+.placeholder2 {
-        top: -10px;
-    }
-
-    form .section2 .order-summary {
-        font-size: 13px;
-        color: #202020;
-        margin: 10.79px 0px;
-    }
-
-
-    form .section2 .order-history {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    form .section2 .order-history .order {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-
-    form .section2 .order-history .order .name {
-        flex-grow: 1;
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .order-history .order .rate {
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .total-summary{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    form .section2 .total-summary .name {
-        flex-grow: 1;
-        font-size: 13px;
-        color: #202020;
-    }
-
-    form .section2 .total-summary .rate {
-        font-size: 13px;
-        color: #202020;
-    }
-
-    .checkout-button{
-        border: 2px solid #000;
-        background-color: #ffffff;
-        padding: 8px 44px;
-    }
-    .checkout-button a{
-        color: #202020;
-        text-decoration: none;
-        font-size: 14px;
     }
 }
