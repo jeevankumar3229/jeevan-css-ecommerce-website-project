@@ -7,7 +7,8 @@
 body {
     font-family: 'Roboto', 'Noto', sans-serif;
     line-height: 1.5;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
 }
 
 .container {
@@ -540,9 +541,9 @@ form .section2 .total-summary .name {
         position: absolute;
         top: 0;
         bottom: 0;
+        left:0;
         width: 256px;
         background-color: white;
-        height: 100%;
     }
 
     .mobile-menu div {
