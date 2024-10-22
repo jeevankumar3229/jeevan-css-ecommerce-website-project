@@ -1,251 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CART</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="cart.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
 
-<body>
-    <div  class="container">
-        <div class="nav-first-half">
-            <div class="left-blank">
-                <!-- <span></span>
+  <body>
+    <div class="container">
+      <div class="nav-first-half">
+        <div class="left-blank">
+          <!-- <span></span>
                 <span></span>
                 <span></span> -->
-                <i class="fa-solid fa-bars ham"></i>
-            </div>
-            <div class="logo">
-                <a href="home.html">SHOP</a>
-            </div>
-            <div class="icon">
-                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
-                
-            </div>
-
+          <i class="fa-solid fa-bars ham"></i>
         </div>
-        <div id="cart-container" class="body-container2">
-            <div class="extra-space2"></div>
-            <div class="cart-name">
-                <h2>Your Cart</h2>
-            </div>
-            <p class="title2">(16 Items)</p>
-            <div  class="item-list-in-cart">
-                <div><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item-name">Men's Tech Shell Full-Zip</div>
-                <div class="quantity">
-                    <label for="quantitySelect">Qty:</label>
-                    <select id="quantitySelect" aria-label="Change quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                </div>
-                <div class="size">Size: <span>M</span></div>
-                <div class="price">$50.00</div>
-                <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="item-list-in-cart">
-                <div><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item-name">Men's Tech Shell Full-Zip</div>
-                <div class="quantity">
-                    <label for="quantitySelect">Qty:</label>
-                    <select id="quantitySelect" aria-label="Change quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                </div>
-                <div class="size">Size: <span>M</span></div>
-                <div class="price">$50.00</div>
-                <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="item-list-in-cart">
-                <div><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item-name">Men's Tech Shell Full-Zip</div>
-                <div class="quantity">
-                    <label for="quantitySelect">Qty:</label>
-                    <select id="quantitySelect" aria-label="Change quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                </div>
-                <div class="size">Size: <span>M</span></div>
-                <div class="price">$50.00</div>
-                <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="total-container">
-                <div class="total">
-                    <div>
-                        <span class="total-label">Total:</span>
-                        <span class="sub-total">&dollar;311.65</span>
-                    </div>
-                    <button class="checkout-button">
-                        <a href="checkout.html">CHECKOUT</a>
-                    </button>
-                </div>
-            </div>
-            
-            <div class="extra-space3"></div>
+        <div class="logo">
+          <a href="home.html">SHOP</a>
         </div>
-        <div class="body-container3">
-            <div class="cart-name">
-                <h2>Your Cart</h2>
-            </div>
-            <p class="title2">(16 Items)</p>
-          
-            <div class="item-list-in-cart">
-                <div class="item1-set"><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item2-set">
-                    <div class="item21">
-                        <div class="item-name">Men's Tech Shell Full-Zip</div>
-                        <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-                    </div>
-                    <div class="item22">
-                        <div class="quantity">
-                            <label for="quantitySelect">Qty:</label>
-                            <select id="quantitySelect" aria-label="Change quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div class="size">Size: <span>M</span></div>
-                        <div class="price">$50.00</div>
-                    </div>
-                </div>
-            </div>
-            <div class="item-list-in-cart">
-                <div class="item1-set"><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item2-set">
-                    <div class="item21">
-                        <div class="item-name">Men's Tech Shell Full-Zip</div>
-                        <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-                    </div>
-                    <div class="item22">
-                        <div class="quantity">
-                            <label for="quantitySelect">Qty:</label>
-                            <select id="quantitySelect" aria-label="Change quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div class="size">Size: <span>M</span></div>
-                        <div class="price">$50.00</div>
-                    </div>
-                </div>
-            </div>
-            <div class="item-list-in-cart">
-                <div class="item1-set"><a href=""><img src="images/men-outerwear.jpg" alt=""></a></div>
-                <div class="item2-set">
-                    <div class="item21">
-                        <div class="item-name">Men's Tech Shell Full-Zip</div>
-                        <button class="cross-button"><i class="fa-solid fa-xmark"></i></button>
-                    </div>
-                    <div class="item22">
-                        <div class="quantity">
-                            <label for="quantitySelect">Qty:</label>
-                            <select id="quantitySelect" aria-label="Change quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div class="size">Size: <span>M</span></div>
-                        <div class="price">$50.00</div>
-                    </div>
-                </div>
-            </div>
-            <div class="total-container">
-                <div class="total">
-                    <div>
-                        <span class="total-label">Total:</span>
-                        <span class="sub-total">&dollar;311.65</span>
-                    </div>
-                </div>
-            </div>
+        <div class="icon">
+          <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
         </div>
-        
+      </div>
+      <div id="cart-container" class="body-container2">
+        <div class="extra-space2"></div>
+        <div class="cart-name">
+          <h2>Your Cart</h2>
+        </div>
+        <p class="title2">(16 Items)</p>
+        <div class="item-list-in-cart">
+          <div>
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item-name">Men's Tech Shell Full-Zip</div>
+          <div class="quantity">
+            <label for="quantitySelect">Qty:</label>
+            <select id="quantitySelect" aria-label="Change quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="size">Size: <span>M</span></div>
+          <div class="price">$50.00</div>
+          <button class="cross-button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="item-list-in-cart">
+          <div>
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item-name">Men's Tech Shell Full-Zip</div>
+          <div class="quantity">
+            <label for="quantitySelect">Qty:</label>
+            <select id="quantitySelect" aria-label="Change quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="size">Size: <span>M</span></div>
+          <div class="price">$50.00</div>
+          <button class="cross-button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="item-list-in-cart">
+          <div>
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item-name">Men's Tech Shell Full-Zip</div>
+          <div class="quantity">
+            <label for="quantitySelect">Qty:</label>
+            <select id="quantitySelect" aria-label="Change quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="size">Size: <span>M</span></div>
+          <div class="price">$50.00</div>
+          <button class="cross-button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="total-container">
+          <div class="total">
+            <div>
+              <span class="total-label">Total:</span>
+              <span class="sub-total">&dollar;311.65</span>
+            </div>
+            <button class="checkout-button">
+              <a href="checkout.html">CHECKOUT</a>
+            </button>
+          </div>
+        </div>
 
+        <div class="extra-space3"></div>
+      </div>
+      <div class="body-container3">
+        <div class="cart-name">
+          <h2>Your Cart</h2>
+        </div>
+        <p class="title2">(16 Items)</p>
 
+        <div class="item-list-in-cart">
+          <div class="item1-set">
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item2-set">
+            <div class="item21">
+              <div class="item-name">Men's Tech Shell Full-Zip</div>
+              <button class="cross-button">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="item22">
+              <div class="quantity">
+                <label for="quantitySelect">Qty:</label>
+                <select id="quantitySelect" aria-label="Change quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="size">Size: <span>M</span></div>
+              <div class="price">$50.00</div>
+            </div>
+          </div>
+        </div>
+        <div class="item-list-in-cart">
+          <div class="item1-set">
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item2-set">
+            <div class="item21">
+              <div class="item-name">Men's Tech Shell Full-Zip</div>
+              <button class="cross-button">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="item22">
+              <div class="quantity">
+                <label for="quantitySelect">Qty:</label>
+                <select id="quantitySelect" aria-label="Change quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="size">Size: <span>M</span></div>
+              <div class="price">$50.00</div>
+            </div>
+          </div>
+        </div>
+        <div class="item-list-in-cart">
+          <div class="item1-set">
+            <a href=""><img src="images/men-outerwear.jpg" alt="" /></a>
+          </div>
+          <div class="item2-set">
+            <div class="item21">
+              <div class="item-name">Men's Tech Shell Full-Zip</div>
+              <button class="cross-button">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="item22">
+              <div class="quantity">
+                <label for="quantitySelect">Qty:</label>
+                <select id="quantitySelect" aria-label="Change quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="size">Size: <span>M</span></div>
+              <div class="price">$50.00</div>
+            </div>
+          </div>
+        </div>
+        <div class="total-container">
+          <div class="total">
+            <div>
+              <span class="total-label">Total:</span>
+              <span class="sub-total">&dollar;311.65</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="mobile-menu">
-        <div><a href="men-outer-item-listing.html">Men's Outerwear</a></div>
-        <div><a href="women-outer-item-listing.html">Ladies Outerwear</a></div>
-        <div><a href="men-shirts-listing.html">Men's T-Shirts</a></div>
-        <div><a href="women-shirt-listing.html">Ladies T-Shirts</a></div>
+      <i class="fas fa-window-close close"></i>
+      <div><a href="men-outer-item-listing.html">Men's Outerwear</a></div>
+      <div><a href="women-outer-item-listing.html">Ladies Outerwear</a></div>
+      <div><a href="men-shirts-listing.html">Men's T-Shirts</a></div>
+      <div><a href="women-shirt-listing.html">Ladies T-Shirts</a></div>
     </div>
     <footer>
-        <a class="link" href="">Made by Polymer</a>
-        <div class="demo1">Demo Only</div>
-        <div class="add-to-cart1">
-            <button >
-                <a href="checkout.html">CHECKOUT</a>
-            </button>
-        </div>
+      <a class="link" href="">Made by Polymer</a>
+      <div class="demo1">Demo Only</div>
+      <div class="add-to-cart1">
+        <button>
+          <a href="checkout.html">CHECKOUT</a>
+        </button>
+      </div>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
