@@ -19,14 +19,14 @@ body {
     align-items: center;
 }
 
- .nav-first-half {
+.nav-first-half {
     display: flex;
     justify-content: center;
     height: 4rem;
     width: 95%;
 }
 
- .logo {
+.logo {
     flex-grow: 1;
     align-self: center;
     text-align: center;
@@ -46,6 +46,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon a i::before {
+    color: black;
 }
 
 .cart-name {
@@ -68,7 +72,7 @@ body {
     margin-top: 5px;
 }
 
- form .section1 .account-info {
+form .section1 .account-info {
     font-size: 13px;
     color: #202020;
     margin: 10.79px 0px;
@@ -90,7 +94,7 @@ form .section1 .email {
 }
 
 
-  input:focus+.placeholder {
+input:focus+.placeholder {
     top: -10px;
 }
 
@@ -125,7 +129,7 @@ form .section1 .phone .phone-info {
 
 
 
- form .section1 .shipping-info {
+form .section1 .shipping-info {
     font-size: 13px;
     color: #202020;
     margin: 20px 0px;
@@ -156,7 +160,7 @@ form .section1 .city {
 }
 
 
- form .section1 .city .city-info {
+form .section1 .city .city-info {
     padding: 15px 0px;
     background-color: #ffffff;
     border: none;
@@ -191,7 +195,7 @@ form .section1 .state-zip .state .st {
 
 }
 
-  form .section1 .state-zip .zip {
+form .section1 .state-zip .zip {
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
@@ -234,7 +238,7 @@ form .section2 .cardholder .cardholder-info {
 }
 
 
-  form .section2 .cardno {
+form .section2 .cardno {
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
@@ -270,7 +274,7 @@ form .section1 .country .option-list {
 
 
 
- .placeholder1 {
+.placeholder1 {
     position: absolute;
     top: -18px;
     left: 2px;
@@ -287,7 +291,7 @@ form .section1 .billing-info {
 }
 
 
- form .section1 .checkbox {
+form .section1 .checkbox {
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
@@ -387,7 +391,7 @@ form .section2 .order-history .order .rate {
     color: #202020;
 }
 
-form .section2 .total-summary{
+form .section2 .total-summary {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -402,17 +406,18 @@ form .section2 .total-summary .name {
     color: #202020;
 }
 
-    form .section2 .total-summary .rate {
+form .section2 .total-summary .rate {
     font-size: 13px;
     color: #202020;
 }
 
-.checkout-button{
+.checkout-button {
     border: 2px solid #000;
     background-color: #ffffff;
     padding: 8px 44px;
 }
-.checkout-button a{
+
+.checkout-button a {
     color: #202020;
     text-decoration: none;
     font-size: 14px;
@@ -500,7 +505,7 @@ form .section2 .total-summary .name {
         height: 800px;
     }
 
-    .ham{
+    .ham {
         display: none;
     }
 
@@ -542,7 +547,7 @@ form .section2 .total-summary .name {
 
     }
 
-    .ham{
+    .ham {
         width: 2.5rem;
         height: 100%;
     }
@@ -553,7 +558,7 @@ form .section2 .total-summary .name {
         position: absolute;
         top: 0;
         bottom: 0;
-        left:0;
+        left: 0;
         width: 256px;
         background-color: white;
     }
@@ -601,26 +606,29 @@ form .section2 .total-summary .name {
         margin-top: -20px;
     }
 
-    .extra-space{
+    .extra-space {
         display: none;
     }
 
-    .link{
+    .link {
         display: none;
     }
 
-    .demo1{
+    .demo1 {
         display: none;
     }
-    .add-to-cart{
+
+    .add-to-cart {
         display: none;
     }
-    .add-to-cart1{
+
+    .add-to-cart1 {
         position: fixed;
         bottom: 0;
         width: 100%;
     }
-    .add-to-cart1 button{
+
+    .add-to-cart1 button {
         font-size: 13px;
         color: white;
         padding: 8px 44px;
@@ -632,31 +640,34 @@ form .section2 .total-summary .name {
         width: 100%;
     }
 
-    .add-to-cart1 button a{
+    .add-to-cart1 button a {
         text-decoration: none;
         color: white;
     }
 
-    .extra-space{
+    .extra-space {
         display: none;
     }
 
-    .link{
+    .link {
         display: none;
     }
 
-    .demo1{
+    .demo1 {
         display: none;
     }
-    .add-to-cart{
+
+    .add-to-cart {
         display: none;
     }
-    .add-to-cart1{
+
+    .add-to-cart1 {
         position: fixed;
         bottom: 0;
         width: 100%;
     }
-    .add-to-cart1 button{
+
+    .add-to-cart1 button {
         font-size: 13px;
         color: white;
         padding: 8px 44px;
@@ -668,18 +679,18 @@ form .section2 .total-summary .name {
         width: 100%;
     }
 
-    .add-to-cart1 button a{
+    .add-to-cart1 button a {
         text-decoration: none;
         color: white;
     }
 
 
-    .body-container2{
+    .body-container2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
-        background-color:white;
+        background-color: white;
     }
 
     form {

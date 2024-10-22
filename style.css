@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     position: relative;
 }
+
 .container {
     width: 100vw;
     height: auto;
@@ -55,6 +56,10 @@ body {
     align-items: center;
 }
 
+.icon a i::before {
+    color: black;
+}
+
 
 .mens-outer-image a img {
     object-fit: cover;
@@ -82,7 +87,7 @@ body {
 
 }
 
-  .ladies-outer-image {
+.ladies-outer-image {
     max-width: 100%;
     width: 100%;
     display: flex;
@@ -104,7 +109,7 @@ body {
 
 }
 
- .ladies-outer-name a {
+.ladies-outer-name a {
     text-decoration: none;
 }
 
@@ -122,7 +127,8 @@ body {
     margin-top: -5px;
 
 }
- .ladies-outer-shop button {
+
+.ladies-outer-shop button {
     display: inline-block;
     text-align: center;
     padding: 8px 50px;
@@ -132,7 +138,7 @@ body {
 
 
 
- .tshirts {
+.tshirts {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -174,7 +180,7 @@ body {
     text-decoration: none;
 }
 
- .tshirts .ladies-shirt a h2 {
+.tshirts .ladies-shirt a h2 {
     font-size: 1.3rem;
     font-weight: 500;
     margin: 32px 0;
@@ -186,7 +192,7 @@ body {
 }
 
 
- .tshirts .men-shirt a h2 {
+.tshirts .men-shirt a h2 {
     font-size: 1.3rem;
     font-weight: 500;
     margin: 32px 0;
@@ -194,14 +200,14 @@ body {
 }
 
 
-  footer a {
+footer a {
     text-decoration: none;
     color: gray;
 }
 
 
 
- .demo {
+.demo {
     box-sizing: border-box;
     width: 120px;
     padding: 6px;
@@ -213,7 +219,7 @@ body {
 
 
 
-  .title {
+.title {
     font-size: 12px;
     color: #757575;
     margin-top: -20px;
@@ -226,13 +232,13 @@ body {
     flex-wrap: wrap;
 }
 
- .item-container .items .image {
+.item-container .items .image {
     text-align: center;
     width: 100%;
     height: auto;
 }
 
- .item-container .items .image img {
+.item-container .items .image img {
     width: 80%;
     text-align: center;
 }
@@ -243,14 +249,14 @@ body {
     height: auto;
 }
 
- .item-container .items .dollar {
+.item-container .items .dollar {
     text-align: center;
     width: 100%;
     height: auto;
 }
 
 
- .body-container1 .single-item-container .single-item-details .single-item-price {
+.body-container1 .single-item-container .single-item-details .single-item-price {
     font-size: 16px;
     color: #757575;
     height: 24px;
@@ -270,7 +276,7 @@ body {
 }
 
 
-  .body-container1 .single-item-container .single-item-details .select-container-1 .option-list {
+.body-container1 .single-item-container .single-item-details .select-container-1 .option-list {
     font-size: 16px;
     padding: 12px auto 12px 0px;
     border: none;
@@ -284,7 +290,7 @@ body {
     display: flex;
 }
 
-  .body-container1 .single-item-container .single-item-details .select-container-2 label {
+.body-container1 .single-item-container .single-item-details .select-container-2 label {
     padding-right: 20px;
     color: #757575;
 }
@@ -300,7 +306,7 @@ body {
 
 }
 
- .body-container1 .single-item-container .single-item-details h2 {
+.body-container1 .single-item-container .single-item-details h2 {
     font-size: 13px;
     margin: 16px 0;
 }
@@ -316,7 +322,7 @@ body {
 }
 
 
- .men {
+.men {
     width: 100%;
 }
 
@@ -345,6 +351,7 @@ body {
 footer {
     text-align: center;
 }
+
 .left-blank {
     width: 2.5rem;
     height: 100%;
@@ -399,7 +406,7 @@ footer {
     }
 
     .nav-second-half ul li a:hover {
-       
+
         border-bottom: 2px solid #202020;
     }
 
@@ -409,7 +416,7 @@ footer {
         align-items: center;
         width: 80%;
     }
-    
+
     .body-container1 {
         display: flex;
         flex-direction: column;
@@ -484,7 +491,7 @@ footer {
     }
 
 
-  
+
 
     footer .link {
         text-decoration: none;
@@ -644,7 +651,7 @@ footer {
         position: absolute;
         top: 0;
         bottom: 0;
-        left:0;
+        left: 0;
         width: 256px;
         background-color: white;
     }
@@ -693,7 +700,7 @@ footer {
     }
 
 
-   
+
 
     .mens-outer-name1 h2 {
         font-size: 1.3rem;
