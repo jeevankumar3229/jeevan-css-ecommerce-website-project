@@ -86,7 +86,7 @@ form .section1 .email {
 
 .placeholder {
     position: absolute;
-    top: 10px;
+    top: 17px;
     left: 0px;
     transition: 0.3s;
     color: #757575;
@@ -308,7 +308,7 @@ form .section2 .expiry {
     display: flex;
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
     column-gap: 5px;
 }
@@ -318,6 +318,7 @@ form .section2 .expiry .option-list2 {
     border: none;
     background-color: white;
     width: 33%;
+    height: 50px;
     border-bottom: 1px solid lightgray;
 }
 
@@ -326,13 +327,15 @@ form .section2 .expiry .option-list3 {
     border: none;
     background-color: white;
     width: 33%;
+    height: 50px;
     border-bottom: 1px solid lightgray;
 }
 
 form .section2 .cvv {
-    margin-top: 30px;
+    margin-top: 1px;
     margin-bottom: 0px;
     position: relative;
+    height: 5px;
 }
 
 form .section2 .cvv .cvv-info {
@@ -348,7 +351,7 @@ form .section2 .cvv .cvv-info {
 
 .placeholder2 {
     position: absolute;
-    top: 0px;
+    top: 13px;
     left: 0px;
     transition: 0.3s;
     color: #757575;

@@ -1,206 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CHECKOUT</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="checkout.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="nav-first-half">
-            <div class="left-blank">
-                <!-- <span></span>
+      <div class="nav-first-half">
+        <div class="left-blank">
+          <!-- <span></span>
                 <span></span>
                 <span></span> -->
-                <i class="fa-solid fa-bars ham"></i>
-            </div>
-            <div class="logo">
-                <a href="home.html">SHOP</a>
-            </div>
-            <div class="icon">
-                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
-                
-            </div>
-
+          <i class="fa-solid fa-bars ham"></i>
         </div>
-        <div class="body-container2">
-            <div class="extra-space2"></div>
-            <div class="cart-name">
-                <p>Checkout</p>
-            </div>
-            <p class="title2">Shop is a demo app - form data will not be sent</p>
-            <form action="">
-                <section class="section1">
-                    <h2 class="account-info">Account Information</h2>
-                    <div class="email">
-                        <input class="email-info" type="email">
-                        <Label class="placeholder">Email</Label>
-                    </div>
-                    <div class="phone">
-                        <input class="phone-info" type="tel">
-                        <Label class="placeholder">Phone Number</Label>
-                    </div>
-                    <h2 class="shipping-info">Shipping Address</h2>
-                    <div class="address">
-                        <input class="address-info" type="text">
-                        <Label class="placeholder">Address</Label>
-                    </div>
-                    <div class="city">
-                        <input class="city-info" type="text">
-                        <Label class="placeholder">City</Label>
-                    </div>
-                    <div class="state-zip">
-                        <div class="state">
-                            <input class="st" type="text">
-                            <Label class="placeholder">State/Province</Label>
-                        </div>
-                        <div class="zip">
-                            <input class="zp" type="text">
-                            <Label class="placeholder">ZIP/Postal Code</Label>
-                        </div>
-
-
-                    </div>
-                    <div class="country">
-                        <label class="placeholder1" for="country">Country</label>
-                        <select name="country" id="country" class="option-list">
-                            <option value="USA">United States</option>
-                            <option value="IND">India</option>
-                        </select>
-                    </div>
-                    <h2 class="billing-info">Billing Address</h2>
-                    <div class="checkbox">
-                        <input type="checkbox" id="billing-address">
-                        <label class="billing-address-checkbox-label" for="billing-address">Use different billing
-                            address</label>
-                    </div>
-                    <div class="checkbox-data">
-                        <div class="address">
-                            <input class="address-info" type="text">
-                            <Label class="placeholder">Address</Label>
-                        </div>
-                        <div class="city">
-                            <input class="city-info" type="text">
-                            <Label class="placeholder">City</Label>
-                        </div>
-                        <div class="state-zip">
-                            <div class="state">
-                                <input class="st" type="text">
-                                <Label class="placeholder">State/Province</Label>
-                            </div>
-                            <div class="zip">
-                                <input class="zp" type="text">
-                                <Label class="placeholder">ZIP/Postal Code</Label>
-                            </div>
-
-
-                        </div>
-                        <div class="country">
-                            <label class="placeholder1" for="country">Country</label>
-                            <select name="country" id="country" class="option-list">
-                                <option value="USA">United States</option>
-                                <option value="IND">India</option>
-                            </select>
-                        </div>
-                    </div>
-
-                </section>
-                <section class="section2">
-                    <h2 class="payment-method">Payment Method</h2>
-                    <div class="cardholder">
-                        <input class="cardholder-info" type="email">
-                        <Label class="placeholder">Cardholder Name</Label>
-                    </div>
-                    <div class="cardno">
-                        <input class="cardno-info" type="tel">
-                        <Label class="placeholder">Card Number</Label>
-                    </div>
-                    <div class="expiry">
-                        <label class="placeholder1" for="month">Expiry</label>
-                        <select name="month" id="month" class="option-list2">
-                            <option value="1">JAN</option>
-                            <option value="2">FEB</option>
-                            <option value="3">MAR</option>
-                            <option value="4">APR</option>
-                            <option value="5">MAY</option>
-                            <option value="6">JUN</option>
-                            <option value="7">JUL</option>
-                            <option value="8">AUG</option>
-                            <option value="9">SEP</option>
-                            <option value="10">OCT</option>
-                            <option value="11">NOV</option>
-                            <option value="12">DEC</option>
-                        </select>
-                        <select name="year" id="year" class="option-list3">
-                            <option value="1">2016</option>
-                            <option value="2">2017</option>
-                            <option value="3">2018</option>
-                            <option value="4">2019</option>
-                            <option value="5">2020</option>
-                            <option value="6">2021</option>
-                            <option value="7">2022</option>
-                            <option value="8">2023</option>
-                            <option value="9">2024</option>
-                            <option value="10">2025</option>
-                        </select>
-                        <div class="cvv">
-                            <input class="cvv-info" type="text">
-                            <Label class="placeholder2">State/Province</Label>
-                        </div>
-
-                    </div>
-                    <h2 class="order-summary">Order Summary</h2>
-                    <div class="order-history">
-                        <div class="order">
-                            <div class="name">Men's Tech Shell Full-Zip</div>
-                            <div class="rate">&dollar;251.00</div>
-                        </div>
-                        <div class="order">
-                            <div class="name">Ladies Colorblock Wind Jacket</div>
-                            <div class="rate">
-                                &dollar;45.90</div>
-                        </div>
-                        <div class="order">
-                            <div class="name">YouTube Organic Cotton T-Shirt - Grey</div>
-                            <div class="rate">
-                                &dollar;14.75</div>
-                        </div>
-                    </div>
-                    <div class="total-summary">
-                        <div class="name">Total</div>
-                        <div class="rate">
-                            &dollar;311.65</div>
-                    </div>
-                    <button class="checkout-button">
-                        <a href="">PlACE ORDER</a>
-                    </button>
-                </section>
-            </form>
-
+        <div class="logo">
+          <a href="home.html">SHOP</a>
         </div>
+        <div class="icon">
+          <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+      <div class="body-container2">
+        <div class="extra-space2"></div>
+        <div class="cart-name">
+          <p>Checkout</p>
+        </div>
+        <p class="title2">Shop is a demo app - form data will not be sent</p>
+        <form action="">
+          <section class="section1">
+            <h2 class="account-info">Account Information</h2>
+            <div class="email">
+              <input class="email-info" type="email" />
+              <label class="placeholder">Email</label>
+            </div>
+            <div class="phone">
+              <input class="phone-info" type="tel" />
+              <label class="placeholder">Phone Number</label>
+            </div>
+            <h2 class="shipping-info">Shipping Address</h2>
+            <div class="address">
+              <input class="address-info" type="text" />
+              <label class="placeholder">Address</label>
+            </div>
+            <div class="city">
+              <input class="city-info" type="text" />
+              <label class="placeholder">City</label>
+            </div>
+            <div class="state-zip">
+              <div class="state">
+                <input class="st" type="text" />
+                <label class="placeholder">State/Province</label>
+              </div>
+              <div class="zip">
+                <input class="zp" type="text" />
+                <label class="placeholder">ZIP/Postal Code</label>
+              </div>
+            </div>
+            <div class="country">
+              <label class="placeholder1" for="country">Country</label>
+              <select name="country" id="country" class="option-list">
+                <option value="USA">United States</option>
+                <option value="IND">India</option>
+              </select>
+            </div>
+            <h2 class="billing-info">Billing Address</h2>
+            <div class="checkbox">
+              <input type="checkbox" id="billing-address" />
+              <label
+                class="billing-address-checkbox-label"
+                for="billing-address"
+                >Use different billing address</label
+              >
+            </div>
+            <div class="checkbox-data">
+              <div class="address">
+                <input class="address-info" type="text" />
+                <label class="placeholder">Address</label>
+              </div>
+              <div class="city">
+                <input class="city-info" type="text" />
+                <label class="placeholder">City</label>
+              </div>
+              <div class="state-zip">
+                <div class="state">
+                  <input class="st" type="text" />
+                  <label class="placeholder">State/Province</label>
+                </div>
+                <div class="zip">
+                  <input class="zp" type="text" />
+                  <label class="placeholder">ZIP/Postal Code</label>
+                </div>
+              </div>
+              <div class="country">
+                <label class="placeholder1" for="country">Country</label>
+                <select name="country" id="country" class="option-list">
+                  <option value="USA">United States</option>
+                  <option value="IND">India</option>
+                </select>
+              </div>
+            </div>
+          </section>
+          <section class="section2">
+            <h2 class="payment-method">Payment Method</h2>
+            <div class="cardholder">
+              <input class="cardholder-info" type="email" />
+              <label class="placeholder">Cardholder Name</label>
+            </div>
+            <div class="cardno">
+              <input class="cardno-info" type="tel" />
+              <label class="placeholder">Card Number</label>
+            </div>
+            <div class="expiry">
+              <label class="placeholder1" for="month">Expiry</label>
+              <select name="month" id="month" class="option-list2">
+                <option value="1">JAN</option>
+                <option value="2">FEB</option>
+                <option value="3">MAR</option>
+                <option value="4">APR</option>
+                <option value="5">MAY</option>
+                <option value="6">JUN</option>
+                <option value="7">JUL</option>
+                <option value="8">AUG</option>
+                <option value="9">SEP</option>
+                <option value="10">OCT</option>
+                <option value="11">NOV</option>
+                <option value="12">DEC</option>
+              </select>
+              <select name="year" id="year" class="option-list3">
+                <option value="1">2016</option>
+                <option value="2">2017</option>
+                <option value="3">2018</option>
+                <option value="4">2019</option>
+                <option value="5">2020</option>
+                <option value="6">2021</option>
+                <option value="7">2022</option>
+                <option value="8">2023</option>
+                <option value="9">2024</option>
+                <option value="10">2025</option>
+              </select>
+              <div class="cvv">
+                <input class="cvv-info" type="text" />
+                <label class="placeholder2">State/Province</label>
+              </div>
+            </div>
+            <h2 class="order-summary">Order Summary</h2>
+            <div class="order-history">
+              <div class="order">
+                <div class="name">Men's Tech Shell Full-Zip</div>
+                <div class="rate">&dollar;251.00</div>
+              </div>
+              <div class="order">
+                <div class="name">Ladies Colorblock Wind Jacket</div>
+                <div class="rate">&dollar;45.90</div>
+              </div>
+              <div class="order">
+                <div class="name">YouTube Organic Cotton T-Shirt - Grey</div>
+                <div class="rate">&dollar;14.75</div>
+              </div>
+            </div>
+            <div class="total-summary">
+              <div class="name">Total</div>
+              <div class="rate">&dollar;311.65</div>
+            </div>
+            <button class="checkout-button">
+              <a href="">PlACE ORDER</a>
+            </button>
+          </section>
+        </form>
+      </div>
     </div>
     <div class="mobile-menu">
-        <div><a href="men-outer-item-listing.html">Men's Outerwear</a></div>
-        <div><a href="women-outer-item-listing.html">Ladies Outerwear</a></div>
-        <div><a href="men-shirts-listing.html">Men's T-Shirts</a></div>
-        <div><a href="women-shirt-listing.html">Ladies T-Shirts</a></div>
+      <div><a href="men-outer-item-listing.html">Men's Outerwear</a></div>
+      <div><a href="women-outer-item-listing.html">Ladies Outerwear</a></div>
+      <div><a href="men-shirts-listing.html">Men's T-Shirts</a></div>
+      <div><a href="women-shirt-listing.html">Ladies T-Shirts</a></div>
     </div>
     <footer>
-        <a class="link" href="">Made by Polymer</a>
-        <div class="demo1">Demo Only</div>
-        <div class="add-to-cart1">
-            <button>
-                <a href="">PLACE ORDER</a>
-            </button>
-        </div>
+      <a class="link" href="">Made by Polymer</a>
+      <div class="demo1">Demo Only</div>
+      <div class="add-to-cart1">
+        <button>
+          <a href="">PLACE ORDER</a>
+        </button>
+      </div>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
