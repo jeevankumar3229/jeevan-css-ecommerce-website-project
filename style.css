@@ -62,12 +62,7 @@ body {
     color: black;
 }
 
-.body-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 /* #cart-container {
     max-width: 1024px;
@@ -441,7 +436,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
+        /* width: 80%; */
+        max-width: 1440px;
     }
 
     .body-container1 {
